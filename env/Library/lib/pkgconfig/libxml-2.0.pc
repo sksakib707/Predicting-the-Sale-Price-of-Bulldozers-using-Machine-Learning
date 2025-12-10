@@ -1,0 +1,11 @@
+prefix=F:/ml-projects/bulldozer-price-prediction-project/env/Library 
+exec_prefix=F:/ml-projects/bulldozer-price-prediction-project/env/Library 
+libdir=F:/ml-projects/bulldozer-price-prediction-project/env/Library/lib 
+includedir=F:/ml-projects/bulldozer-price-prediction-project/env/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.13.9 
+Description: libXML library version2. 
+Requires: 
+Libs: -LF:/ml-projects/bulldozer-price-prediction-project/env/Library/lib -lxml2 -liconv -lz 
+Cflags: -IF:/ml-projects/bulldozer-price-prediction-project/env/Library/include/libxml2 -IF:/ml-projects/bulldozer-price-prediction-project/env/Library/include 

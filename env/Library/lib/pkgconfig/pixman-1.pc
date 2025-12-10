@@ -1,0 +1,9 @@
+prefix=F:/ml-projects/bulldozer-price-prediction-project/env/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: Pixman
+Description: The pixman library (version 1)
+Version: 0.46.4
+Libs: -L${libdir} -lpixman-1
+Cflags: -I${includedir}/pixman-1
