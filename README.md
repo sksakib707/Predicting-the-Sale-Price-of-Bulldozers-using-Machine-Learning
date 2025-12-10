@@ -55,9 +55,9 @@ This dataset is ideal for learning **regression modeling** and **feature enginee
 
 After extensive experimentation, the best-performing model achieved:
 
-- ✔ **Low RMSLE error**  
-- ✔ Strong generalization on validation data  
-- ✔ Improved accuracy with feature engineering and time-based split  
+-  **Low RMSLE error**  
+-  Strong generalization on validation data  
+-  Improved accuracy with feature engineering and time-based split  
 
 (Random Forest Regressor often performs strongly on this dataset.)
 
@@ -66,9 +66,9 @@ After extensive experimentation, the best-performing model achieved:
 ##  Project Structure
 ```
  bulldozer-price-prediction
-├── 📁 data/ # Dataset (ignored in Git)
-├── 📁 notebooks/ # Jupyter notebooks for EDA & training
-├── 📁 models/ # Saved trained models
+├── data/ # Dataset (ignored in Git)
+├── notebooks/ # Jupyter notebooks for EDA & training
+├── models/ # Saved trained models
 ├── README.md # Project documentation
 ├── requirements.txt # Dependencies
 └── main.ipynb # End-to-end pipeline
