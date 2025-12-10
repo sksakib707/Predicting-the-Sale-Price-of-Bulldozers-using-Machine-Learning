@@ -64,7 +64,7 @@ After extensive experimentation, the best-performing model achieved:
 ---
 
 ##  Project Structure
-
+```
  bulldozer-price-prediction
 ├── 📁 data/ # Dataset (ignored in Git)
 ├── 📁 notebooks/ # Jupyter notebooks for EDA & training
@@ -72,6 +72,7 @@ After extensive experimentation, the best-performing model achieved:
 ├── README.md # Project documentation
 ├── requirements.txt # Dependencies
 └── main.ipynb # End-to-end pipeline
+```
 ---
 
 ##  Future Improvements
