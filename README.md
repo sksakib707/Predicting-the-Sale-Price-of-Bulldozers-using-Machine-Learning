@@ -82,7 +82,7 @@ After extensive experimentation, the best-performing model achieved:
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Sheikh Shadman Sakib**    
 
@@ -90,6 +90,6 @@ After extensive experimentation, the best-performing model achieved:
 
 ---
 
-## 📜 License
+##  License
 
 This project is for **educational and research purposes only**.
