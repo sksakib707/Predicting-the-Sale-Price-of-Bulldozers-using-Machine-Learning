@@ -74,7 +74,34 @@ After extensive experimentation, the best-performing model achieved:
 └── main.ipynb # End-to-end pipeline
 ```
 ---
+##  How to Run This Project
 
+Follow these steps to run the project on your local machine:
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/sksakib707/Predicting-the-Sale-Price-of-Bulldozers-using-Machine-Learning.git
+cd Predicting-the-Sale-Price-of-Bulldozers-using-Machine-Learning
+```
+2.**Create a virtual environment**
+```bash
+python -m venv env
+# Activate the environment
+# Windows:
+env\Scripts\activate
+# macOS/Linux:
+source env/bin/activate
+```
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+4. **Download the dataset**
+   * Get the data from Kaggle Blue Book for Bulldozers
+   * Place the files inside the `data/` folder
+5. **Run the project**
+   * Open `main.ipynb` or notebooks in `notebooks/` folder
+  ---
+  
 ##  Future Improvements
 
 - Implement advanced models (XGBoost, LightGBM, CatBoost)  
