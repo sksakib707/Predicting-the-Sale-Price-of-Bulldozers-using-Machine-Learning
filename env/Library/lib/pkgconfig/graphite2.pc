@@ -1,7 +1,0 @@
-
-Name: Graphite2
-Description: Font rendering engine for Complex Scripts
-Version: 3.0.1
-Libs: -LF:/ml-projects/bulldozer-price-prediction-project/env/Library/lib -lgraphite2
-Cflags: -IF:/ml-projects/bulldozer-price-prediction-project/env/Library/include
-
