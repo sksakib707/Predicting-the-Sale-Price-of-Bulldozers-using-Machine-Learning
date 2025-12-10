@@ -1,7 +1,124 @@
+# ===============================
+# Python + Conda Project .gitignore
+# ===============================
+
+# --- Python cache files ---
 __pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebook checkpoints ---
 .ipynb_checkpoints/
-*.pyc
+
+# --- Virtual environments ---
 .env
+.venv
+env/
 venv/
-data/*
-models/*
+ENV/
+env.bak/
+venv.bak/
+
+# --- Conda environment folders ---
+.conda/
+conda-meta/
+*.conda
+*.yaml
+
+# --- IDE/Editor files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs and temporary files ---
+*.log
+*.out
+*.bak
+*.tmp
+
+# --- Unit test / coverage reports ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.xml
+*.py,cover
+
+# --- Distribution / packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Data and model files (optional) ---
+data/
+datasets/
+models/
+outputs/
+results/
+checkpoints/
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+
+# --- Notebooks and analysis exports ---
+*.nbconvert.ipynb
+*.pdf
+
+# --- Temporary notebooks ---
+temp_*.ipynb
+test_*.ipynb
+
+# --- Jupyter runtime ---
+profile_default/
+ipython_config.py
+
+# --- Spyder project settings ---
+.spyderproject
+.spyproject
+
+# --- PyCharm project settings ---
+.idea/
+
+# --- PyInstaller ---
+*.manifest
+*.spec
+
+# --- Pyre type checker ---
+.pyre/
+
+# --- mypy type checker ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- Local scripts or secrets ---
+secrets.*
+config.json
+*.env
+token.txt
+api_keys.txt
+
+# --- Backup files ---
+*~
+*.swp
+*.swo
+*.bak
